@@ -14,6 +14,7 @@ public class SkipText : MonoBehaviour
 
     [SerializeField] float timeBtwnChars;
     [SerializeField] float timeBtwnWords;
+    [SerializeField] Button nextButton;
     int i = 0;
     private void Start()
     {
@@ -26,12 +27,24 @@ public class SkipText : MonoBehaviour
             textMeshPro.text = stringArray[i];
             StartCoroutine(TextVisible());
         }
+        else
+        {
+            //Sonraki sahneye animasyonla geçilecek
+            /*diðer sahnenin kopyasýný oluþtur bu sefer saðda paneller gelsin;
+             * böyle hisseden baþkalarý olduðunu da görmek (yalnýzlýk?)
+             * sandýðýndan daha deðerli veya iþlevli olduðunu hissetmek?
+             * 
+             * hayatý tekrar sevmek (onu hayata baðlayan þeylerin tekrar farkýna varmak)
+            */
+
+        }
     }
     private IEnumerator TextVisible()
     {
         textMeshPro.ForceMeshUpdate();
         int totalVisibleCharacters = textMeshPro.textInfo.characterCount;
         int counter = 0;
+        nextButton.interactable = false;
         while (true) 
         {
             int visibleCount = counter % (totalVisibleCharacters + 1);
@@ -41,8 +54,10 @@ public class SkipText : MonoBehaviour
             {
                 i += 1;
                 //Invoke("EndCheck", timeBtwnWords);
+                nextButton.interactable = true;
                 break;
             }
+
 
             counter++;
             yield return new WaitForSeconds(timeBtwnChars);

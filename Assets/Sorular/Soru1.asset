@@ -13,5 +13,10 @@ MonoBehaviour:
   m_Name: Soru1
   m_EditorClassIdentifier: 
   soruNumarasi: 1
-  soru: "Sa\u011Fl\u0131kl\u0131 bir ili\u015Fkinin olmazsa olmaz\u0131 nedir?"
-  cevap: 
+  soru: "\xC7evremde kimse taraf\u0131ndan de\u011Fer g\xF6rm\xFCyorum"
+  cevap1: "De\u011Fer g\xF6rmemen \xE7ok normal. Ruh emici gibisin. \xC7evrene sadece
+    negatif enerji yay\u0131yorsun."
+  cevap2: "Belki de de\u011Ferini ger\xE7ekten bilecek insanlarla hen\xFCz tan\u0131\u015Fmam\u0131\u015Fs\u0131nd\u0131r.
+    Kalbindeki g\xFCzelli\u011Fi g\xF6recek birileri mutlaka vard\u0131r."
+  olumluCevap: "Belki de de\u011Ferini ger\xE7ekten bilecek insanlarla hen\xFCz tan\u0131\u015Fmam\u0131\u015Fs\u0131nd\u0131r.
+    Kalbindeki g\xFCzelli\u011Fi g\xF6recek birileri mutlaka vard\u0131r."

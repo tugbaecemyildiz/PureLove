@@ -9,8 +9,10 @@ public class Soru : ScriptableObject
     public new string soruNumarasi;
     public string soru;
 
-    public string cevap;
-    
+    public string cevap1;
+    public string cevap2;
+    public string olumluCevap;
+
 
 
 }//class

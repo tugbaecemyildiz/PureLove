@@ -13,5 +13,9 @@ MonoBehaviour:
   m_Name: Soru2
   m_EditorClassIdentifier: 
   soruNumarasi: 2
-  soru: "Bir ili\u015Fkide beklentin nedir?"
-  cevap: 
+  soru: "Yak\u0131n \xE7evrem bile beni anlam\u0131yor. Yapayaln\u0131z hissediyorum"
+  cevap1: "Peki sorun sen de\u011Filde yapt\u0131\u011F\u0131n se\xE7imlerse? Kendine
+    bu kadar y\xFCklenme."
+  cevap2: "Senin gibi biriyle neden arkada\u015F olmak istesinler ki?"
+  olumluCevap: "Peki sorun sen de\u011Filde yapt\u0131\u011F\u0131n se\xE7imlerse?
+    Kendine bu kadar y\xFCklenme."

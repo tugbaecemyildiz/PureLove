@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: Soru3
   m_EditorClassIdentifier: 
   soruNumarasi: 3
-  soru: "Sevgilinde olmazsa olmaz dedi\u011Fin \xF6zellik nedir?"
-  cevap: 
+  soru: "Ya\u015Famak i\xE7in bir nedenim yok"
+  cevap1: 
+  cevap2: 
+  olumluCevap: 
